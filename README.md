@@ -52,8 +52,7 @@ BPMN-диаграмма отражает основной и альтернат�
 - выбор точки через карту;
 - недоступность точки самовывоза.
 
-📂 `docs/diagrams/bpmn-preorder-coffee.drawio`  
-📷 `docs/diagrams/bpmn-preorder-coffee.png`
+![BPMN диаграмма](screenshots/Coffee_feature_BPMN.png)
 
 ---
 
