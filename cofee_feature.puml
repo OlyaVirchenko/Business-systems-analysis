@@ -1,0 +1,31 @@
+@startuml
+
+skin rose 
+autonumber
+
+actor User
+participant "Mobile Application" as MA
+participant "Backend Service" as Backend
+database "Database" as DB
+
+User -> MA: Инициация выбора точки самовывоза
+activate MA
+
+MA -> Backend: Запрос списка точек
+activate Backend
+
+Backend -> Backend: Проверка корректности запроса
+Backend -> DB: Получение списка точек
+activate DB
+
+DB --> Backend: Список точек
+deactivate DB
+
+Backend --> MA: Данные точек самовывоза
+deactivate Backend
+
+MA --> User: Отображение списка точек
+deactivate MA
+
+@enduml
+
