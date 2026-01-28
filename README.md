@@ -102,7 +102,7 @@ backend-сервисами и базой данных при выборе точ
 
 ## Описание интерфейсов взаимодействия (REST API)
 
- 
+https://github.com/OlyaVirchenko/Business-systems-analysis/blob/main/REST%20API.pdf 
 
 ---
 
